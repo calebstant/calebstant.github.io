@@ -1,0 +1,10 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+.navbar {
+    height: 80px;
+    width: 100px;
+    background: linear-gradient(#48649F,#3B59)
+}
