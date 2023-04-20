@@ -9,7 +9,7 @@
 <body>
     <P id="out"></P>
     <script>
-        var outpout = "";
+        var output = "";
         // var col1 = 2; while (col1 <= 10) {...; col1 += 2; }
         for (var col1 = 2; col1 <= 10; col1 += 2) {
             var col2 = col1 + 1;
@@ -17,7 +17,7 @@
             var col4 = col1**2;
 
             output += col1 + " &emsp; " + col2 + " &emsp; "
-                           + col3 + " & emsp; " + col4 + "<br/>"
+                           + col3 + " &emsp; " + col4 + "<br/>"
         }
         document.getElementById("out").innerHTML = output;
     </script>
