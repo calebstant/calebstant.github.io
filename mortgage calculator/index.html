@@ -7,19 +7,24 @@
     <title>Mortgage Calculator</title>
 </head>
 <body>
-    <label for="num1">Pricipal:</label>
-    <input type="number" id="num2" name="num2" min="2" max="23">
-    <label for="num1">Interest Rate as % (e.g. 7.9):</label>
-    <input type="number" id="num2" name="num2" min="2" max="23">
-    <label for="num1">Number of Years:</label>
-    <input type="number" id="num2" name="num2" min="2" max="23">
-    <label for="num1">Monthly Payment:</label>
-    <input type="number" id="num2" name="num2" min="2" max="23">
+   <table>
+    <tr>
+   <th><label for="num1">Pricipal:</label>
+    <input type="number" id="num2" name="num2" min="2" max="23"></th>
+   <th><label for="num1">Interest Rate as % (e.g. 7.9):</label>
+   <input type="number" id="num2" name="num2" min="2" max="23"></th>
+    <th><label for="num1">Number of Years:</label>
+    <input type="number" id="num2" name="num2" min="2" max="23"></th>
+    <th><label for="num1">Monthly Payment:</label>
+    <input type="number" id="num2" name="num2" min="2" max="23"></th>
+    </tr>
+   </table>
     <p id="out"></p>
     <button onclick="calc()">Calculate</button>
     <button onclick="reset()">Reset</button>
+    
     <script>
-        
+
     </script>
 </body>
 </html>
