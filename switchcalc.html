@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input type="Number" id="num1" name="num1">
+    <select id="operand" name="operand">
+        <option disabled selected value>---select an option---</option>
+        <option value="+"></option>
+        <option value="-"></option>
+        <option value="*"></option>
+        <option value="/"></option>
+        <option value="%"></option>
+        <option value="**"></option>
+    </select>
+    <input type="Number" id="num1" name="num1">
+    <p id="output" style="background: pelegreen;"></p>
+    <button onclick="run()">calculate</button>
+
+    <script>
+        function run(){
+            var num1 = Number (document.getElementById("num1").value);
+            var op = document.getElementById()
+            switch (op) {
+                case"+":
+                    result
+            
+            default: 
+                document.getElementById("output").innerText = 
+                    "invalid option selected";
+                return; // Immerdiately exit function
+            }
+                document.getElementById("output").innerText = 
+                num1 + " " + op + " " + num2 + " = " + result;
+        }
+    </script>
+  
+</body>
+</html>
