@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mortgage Calculator</title>
+    <script src="script.js" defer ></script>
 </head>
 <body>
 <table>
@@ -40,7 +41,7 @@ function calc() {
         var num2 = Number(document.getElementById("num2").value);
         var num3 = Number(document.getElementById("num3").value);
         var num4 = Number(document.getElementById("num4").value);
-        document.getElementById("out").innerText =
+        document.getElementById("out").innerHTML =
         B=P(1+r/n)**nt-m[(1+r/n)**nt-1]/(r/n)
 }
 
