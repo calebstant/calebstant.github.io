@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mortgage Calculator</title>
     <script src="script.js" defer ></script>
+    <link src = "styles.css">
 </head>
 <body>
 <table>
@@ -41,9 +42,9 @@ function calc() {
         var R = Number(document.getElementById("R").value);
         var T = Number(document.getElementById("T").value);
         var M = Number(document.getElementById("M").value);
-        
+        var B =  B=P*(1+R/12)**12T-M[(1+R/12)**12T-1]/(R/12)
         document.getElementById("output").innerText =
-        B=P*(1+r/12)**12t-m[(1+r/12)**12t-1]/(r/12)
+        B=P*(1+R/12)**12T-M[(1+R/12)**12T-1]/(R/12)
 }
 
     </script>
