@@ -1,8 +1,13 @@
-body {
+* {
     font-family: Arial, Helvetica, sans-serif;
+     background-color: aqua;
+     color:black;
+     margin-top: 40vh; 
+     font-size: 80px;
+    border: 3;
+    word-spacing:2px ;
+    margin-bottom: 40vh;
+    border-color: crimson;
 }
 
-body {
-    background-color: aqua;
-}
 
