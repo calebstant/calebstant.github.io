@@ -1,16 +1,17 @@
 * {
     font-family: Arial, Helvetica, sans-serif;
-     background-color: aqua;
-     color:black;
-     margin-top: 40vh; 
-     font-size: 80px;
-    margin-bottom: 40vh;
-    border-color: crimson;
+     background-color:lightblue ;
+     color:orangered;
+     font-size: 16px;
+    border-color: orangered;
+    margin: 5px;
+    margin-top:5px ;
+    
 }
 
 button { 
-    color: blue;
-    font-size: 20px;
+    color:orangered ;
+    font-size: 16px;
     size: 30px;
 }
 
