@@ -4,11 +4,14 @@
      color:black;
      margin-top: 40vh; 
      font-size: 80px;
-    border: 3;
-    word-spacing:2px ;
     margin-bottom: 40vh;
     border-color: crimson;
-    
+}
+
+button { 
+    color: blue;
+    font-size: 20px;
+    size: 30px;
 }
 
 
