@@ -42,7 +42,7 @@ function calc() {
         var R = Number(document.getElementById("R").value);
         var T = Number(document.getElementById("T").value);
         var M = Number(document.getElementById("M").value);
-        var B=P*[1+R/12]**12*T-M*[(1+R/12)**12*T-1]/[R/12]
+        var B=P*[1+R/12]**12*T-M*[[1+R/12]**12*T-1]/[R/12];
         document.getElementById("output").innerText =
        "$" + B.tofixed(2)
 }
