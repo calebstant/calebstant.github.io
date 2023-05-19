@@ -11,13 +11,14 @@
     font-size: 30px;
     text-align: center;
     border: 15px ;
+    color: #218c33;
   }
 
 
  .button {
-   border: 15px;
+   border: 25px;
     color:#4b5232;
-    padding: 15px 32px;
+    padding: 32px;
     text-align: center;
     font-size: 25px;
   }
