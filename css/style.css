@@ -14,9 +14,13 @@
   }
 
 
- button {
+ .button {
+   border: 15px;
     color:#4b5232;
-    font-size: px;
-  
+    padding: 15px 32px;
+    text-align: center;
+    font-size: 25px;
   }
+
+  
 
