@@ -1,8 +1,8 @@
 .wrapper {
-    height: 100vh; /* 100% of viewport hieght */
-    overflow-x: hidden; /* prevent horizontal */
-    overflow-y: auto; 
-    perspective: 2px;
+    height: 100vh;  /* 100% of the viewport height */
+    overflow-x: hidden;  /* prevent horizontal scroll */
+    overflow-y: auto;  /* allow vertical scroll */
+    perspective: 2px;  /* simulate distance from viewport */
 }
 
 .section {
@@ -15,8 +15,8 @@
 }
 
 .static { background: red; }
-.bg1{ background: url("https://picsum.photos/900/700"); }
-.bg2{ background: url("https://picsum.photos/800/600"); }
+.bg1::after { background: url("https://picsum.photos/900/700"); }
+.bg2::after { background: url("https://picsum.photos/800/600"); }
 
 .parallax::after {
     content: " ";
@@ -25,11 +25,11 @@
     right: 0;
     bottom: 0;
     left: 0;
-    z-index:-1;
+    z-index: -1;
     background-size: 100%;
     background-attachment: fixed;
     background-size: cover;
 }
 
-body, html {overflow: hidden;}
-* {margin: 0; padding: 0; }
+body, html { overflow: hidden; }
+* { margin: 0; padding: 0; }

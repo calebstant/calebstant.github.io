@@ -15,13 +15,24 @@
   }
 
 
- .button {
-   border: 25px;
-    color:#4b5232;
-    padding: 32px;
-    text-align: center;
-    font-size: 25px;
-  }
+  .wrapper {
+    height: 100vh;  /* 100% of the viewport height */
+    overflow-x: hidden;  /* prevent horizontal scroll */
+    overflow-y: auto;  /* allow vertical scroll */
+    perspective: 2px;  /* simulate distance from viewport */
+}
 
+.section {
+  position: relative;
+  height: 100vh;
+  display: flex;
+  color: white;
+  align-items: center;
+  justify-content: center;
+}
+
+.static { background:#4b5232; }
+.bg1::after { background: url("photos//image_67197953.JPG"); }
+.bg2::after { background: url("photos//imgag"); }
   
 
