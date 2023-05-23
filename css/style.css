@@ -32,7 +32,7 @@
 }
 
 .static { background:#4b5232; }
-.bg1::after { background: url("photos//image_67197953.JPG"); }
-.bg2::after { background: url("photos//imgag"); }
+.bg1::after { background: url("../photos/image_67197953.JPG"); }
+.bg2::after { background: url("../photos/image_6487327.JPG"); }
   
 
