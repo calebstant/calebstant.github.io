@@ -16,7 +16,7 @@
 
 
   .wrapper {
-    height: 10vh;  /* 100% of the viewport height */
+    height: 100vh;  /* 100% of the viewport height */
     overflow-x: hidden;  /* prevent horizontal scroll */
     overflow-y: auto;  /* allow vertical scroll */
     perspective: 2px;  /* simulate distance from viewport */
@@ -24,7 +24,7 @@
 
 .section {
   position: relative;
-  height: 10vh;
+  height: 100vh;
   display: flex;
   color: white;
   align-items: center;
