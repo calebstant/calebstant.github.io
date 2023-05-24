@@ -26,13 +26,13 @@
   position: relative;
   height: 100vh;
   display: flex;
-  color: white;
+  color:white;
   align-items: center;
   justify-content: center;
 }
 
 .static { background:#4b5232; }
-.bg1  { background: url("../photos/image_67197953.jpg"); }
-.bg2 { background: url("../photos/image_6487327.jpg"); }
+.bg1  { background: url("../photos/image_6483441.jpg"); }
+.bg2 { background: url("../photos/image_6483441\ \(1\).jpg"); }
   
 
